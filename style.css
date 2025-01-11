@@ -1,0 +1,1418 @@
+
+.navbar{
+    background: darkblue;
+    /* height: 50px; */
+}
+.navbar .navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.navbar .navbar-toggler{
+    border: 0;
+
+}
+.navbar .navbar-toggler i{
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+
+}
+.navbar .offcanvas-header{
+    background: darkblue;
+    color: white;
+}
+.navbar .offcanvas-header i{
+
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+.offcanvas-body .said-item{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: space-between;
+    position: relative;
+    margin-top: 6px;
+    /* flex-direction: column; */
+
+    
+ 
+}
+.offcanvas-body .said-item .accordion{
+    width: 100%;
+    color: darkblue;
+    border: none;
+    /* margin-top:6px; */
+    padding:0 3px;
+  
+}
+.offcanvas-body .said-item .accordion-header{
+    display: flex;
+    align-items: center;
+    background: white;
+    border: none;
+    height: 45px;
+    padding: 4px;
+   transition: .2s;
+   text-align: center;
+}
+.offcanvas-body .said-item .accordion-header .icon i{
+    font-size: 20px;
+    /* margin:0 10px; */
+}
+
+
+.offcanvas-body .said-item .accordion .accordion-header button{
+    box-shadow: none;
+    text-transform: capitalize;
+    height: 20px;
+    border: 0;
+    background:white;
+    color:darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+
+
+}
+.offcanvas-body .said-item .accordion .accordion-item{
+    border: 0;
+}
+.accordion .accordion-header button{
+    background: lightblue;
+}
+.accordion-header button{
+   background: lightblue; 
+}
+.offcanvas-body .said-item .accordion .accordion-header button:focus{
+    box-shadow: none;
+}
+
+
+.offcanvas-body .said-item .accordion .accordion-body .link{
+    width: 100%;
+    transition: .2s;
+}
+
+.offcanvas-body .said-item .accordion .accordion-body .link a{
+    width: 100%;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.offcanvas-body .said-item .accordion .accordion-body .link a:hover{
+    background: lightblue;
+
+}
+.offcanvas-body .said-item .footer{
+  display: flex;
+  color: darkblue;
+  font-weight: bold;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 90px;
+
+}
+
+.offcanvas-body .said-item .footer .icon{
+    margin: 11px;
+}
+.offcanvas-body .said-item .footer .text{
+    margin-left: 12px;
+  
+}
+.offcanvas-body .said-item .footer .text a{
+    color: darkblue;
+    text-decoration: none;
+
+
+}
+
+
+.salary_info table a{
+    text-decoration: none;
+}
+.salary_info table tr td .fa-trash{
+    color: red;
+    cursor: pointer;
+}
+.salary_info table tr td .fa-pen-to-square{
+    color: blue;
+    cursor: pointer;
+}
+
+/* home page design end */
+
+/* studentpage desing satrt */
+
+.student_info .card
+{
+   /* height: 1260px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: none;
+   background: none;
+   margin: 12px;
+   text-transform: capitalize;
+   transition: .5s;
+  
+}
+.student_info .card:hover{
+    transform: translateY(-5px);
+}
+.student_info .card i{
+    font-size: 40px;
+     margin: 10px;
+}
+.student_info .box1 {
+      background: #bef1b0;  
+      /* background: lightblue; */
+      color: rgb(197, 97, 114);
+      
+}
+.student_info .box2{
+    background: #f3678c;
+     color:#f0e9dd;
+}
+.student_info .box3{
+    background:lightblue;
+     color:#f3678c;
+}
+
+
+
+
+/* studentpage desing end */
+/* student_table deisg statr */
+
+/* .student_table{
+    overflow: hidden;
+} */
+/* search style start */
+.student_table #show table tr td
+{
+    border: 0;
+}
+
+.student_table .form-group, .teacher_form .form-group,.teacher_table .form-group ,.expane_form .form-group,.user_form .form-group,
+.course_table .form-group ,.teacher_table .form-group 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: var(--inputcolor); */
+    background: white;
+    /* border-radius:7px; */
+    height: 50px;
+    position: relative;  
+}
+
+/* .student_table form button{
+    background:darkblue;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+.student_table form button:hover{
+    background: darkblue;
+    box-shadow: none;
+} */
+
+.student_table .form-group i,.teacher_table .form-group i,.user_form  .form-group i{
+    font-size: 20px;
+    color: white;
+    padding: 0 12px;
+    /* cursor: pointer; */
+     background: darkblue;
+     height: 50px;
+     display: flex;
+     align-items: center;
+
+  
+  
+
+}
+.student_table .form-group  button,.teacher_form .form-group button .form-group button,
+.expane_form .form-group  button,
+.user_form .form-group button,.course_table .form-group button,.teacher_table .form-group button
+{
+    background: darkblue;
+    height: 50px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    /* width:30px; */
+     color: white;
+   
+}
+
+.student_table .form-group input,.teacher_form .form-group input,.teacher_table .form-group input,.expane_form .form-group  input,.user_form .form-group input
+,.course_table .form-group input
+{
+   
+    box-shadow: none;
+    border: none;
+    background: white;
+    height: 100%;
+    border-radius: 0;
+    /* padding: 10px; */
+
+}
+/* search style end */
+
+
+
+.student_table table thead ,.course_table table thead,.teacher_info_table table thead
+,.expans_table table thead,.user_table table thead
+{
+    /* background: var(--color); */
+    background:darkblue;
+    color: white;
+    text-transform: capitalize;
+   
+}
+.student_table table i,.course_table table i,.teacher_info_table i,.expans_table table i,.user_table table i
+{
+   font-size: 18px;
+   cursor: pointer;
+}
+.student_table table .fa-pen-to-square,.course_table table .fa-pen-to-square
+,.teacher_info_table .fa-pen-to-square,.expans_table table .fa-pen-to-square,
+.user_table .fa-pen-to-square
+{
+    color: blue;
+    
+}
+.student_table table .fa-trash,.course_table table .fa-trash,
+.teacher_info_table table .fa-trash,.expans_table table .fa-trash,
+.user_table table .fa-trash
+{
+    color:red;
+}
+.student_table table .fa-eye,.course_table table .fa-eye,.teacher_info_table .fa-eye,.expans_table table .fa-eye,.user_table table .fa-eye
+{
+   color: green;
+}
+
+.course_form .form-group
+{
+    display: flex;
+     overflow: hidden;
+    background: white;
+    height: 45px;
+    position: relative;  
+}
+.course_form .form-group  button,.update_course .form-group button{
+    background: darkblue;
+    height: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    /* width:30px; */
+     color: white;
+   
+}
+.course_form .form-group input{
+    box-shadow: none;
+    border: none;
+    margin: 5px;
+}
+.add_course .form-group label,.update_course .form-group label, .form-group label,#add_expane .form-group label,#update_user .form-group label
+{
+   color: darkblue;
+   font-weight: bold;
+   margin: 4px;
+
+}
+.view_course .card{
+    border: none;
+
+}
+.view_course .card .card-img{
+    height: 210px;
+     width: 100%;
+     margin: auto;
+}
+.view_course .card .card-img img{
+    height: 210px;
+    margin: auto;
+    width: 50%;
+}
+.view_course .card .card-body h3,.view_course .card p{
+    color:darkblue;
+}
+.view_course .card .card-body p{
+    font-size: 18px;
+}
+
+.add_course .form-group input,.add_course .form-group textarea,.update_course .form-group input,.update_course .form-group textarea,#add_expane .form-group input,#add_expane .form-group textarea,#update_expane .form-group textarea,#update_expane .form-group input,#update_user .form-group input
+{
+    border-radius: 0;
+    box-shadow: none;
+
+}
+#view_teacher .text{
+    margin: 9px;
+}
+#view_teacher .modal-body .img img ,#view_user .modal-body .img img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+   
+}
+#view_teacher .modal-body .info{
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+#view_teacher .modal-body .info span
+{
+   display: block;
+    color: darkblue;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+#view_teacher .modal-body .info span:nth-child(2)
+{
+   color:rgb(201, 84, 104);
+   font-size: 24px;
+}
+#view_teacher .modal-body .teacher_detail span{
+       color: darkblue;
+       margin: 0 3px;
+}
+#view_teacher .modal-body .teacher_detail span:nth-child(1)
+{
+   color:rgb(201, 84, 104);
+}
+#view_teacher .modal-body,#view_user .modal-body {
+   position: relative;
+}
+#view_teacher .modal-body .card,#view_user .modal-body .card
+{
+ border: 0;
+ width: 100%;
+ background: white;
+ margin-top: 40px;
+ /* position: relative; */
+ height: 100%;
+ padding: 0 0px;
+   
+}
+#view_teacher .modal-body .card .card-img,#view_user .modal-body .card-img{
+   height: 80px;
+   width: 80px;
+   background:white;
+   position: absolute;
+   top: -40px;
+   left: 40%;
+   /* right: 50%; */
+   margin: auto;
+   /* left: 50%; */
+   
+}
+#view_teacher .modal-body .card .card-img img,#view_user .modal-body .card-img img{
+   height: 80px;
+   width: 80px;
+   border: 0;
+}
+#view_teacher .modal-body .card  .card-body h4{
+ margin-top: 34px;
+ color:darkblue;
+
+}
+#view_teacher .modal-body .card  .card-body span,
+#view_user .modal-body .card .card-body span
+{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 4px;  
+
+}
+
+
+
+
+/* student_table deisg end */
+/* syudent view_modul start */
+/* i max some deisgn in some modul  */
+.view_modul .modal-body
+{
+    border: none;
+
+}
+.update_modul .modal-body .form-group ,#update_user .form-group 
+{
+     display: flex;
+     /* align-items: center; */
+     /* justify-content: space-between; */
+     flex-direction: row;
+     width: 100%;
+}
+.update_modul .modal-body .form-group  .form-box input
+{
+    width: 100%;
+}
+.update_modul .modal-body .form-group .form-box
+,#update_user .form-group .form-box
+{
+    margin: 5px;
+}
+.update_modul .modal-body .last .form-box, #update_user .last{
+    display: flex;
+     width: 100%;
+    flex-direction: column;
+
+}
+.update_modul .modal-body .form-group .gender{
+    /* display: flex; */
+
+}
+
+.update_modul .modal-body .form-group .gender label{
+    margin: 10px;
+}
+.update_modul .modal-body .form-group button,.add_course .modal-body .form-group button ,.update_course .modal-body .form-group button,#add_expane .modal-body .form-group button,
+#update_expane .modal-body .form-group button,
+#update_user .modal-body .form-group button
+{
+    background: darkblue;
+    border-radius: 0;
+    color: white;
+
+    
+}
+@media screen and (max-width:670px)
+{
+    .update_modul .modal-body .form-group,.student_enroll .form-group,    .teacher_enroll .form-group,  #update_teacher .form-group ,
+    #update_user .form-group,#add_user .form-group
+    
+    {
+        flex-direction: column;
+
+    }
+    
+}
+
+.view_modul #view .profile .table{
+    border:0;
+    box-shadow: 2px solid white;
+}
+.view_modul #view .profile .card{
+    background:white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: darkblue;
+}
+.view_modul #view .profile  .card{
+   border: 0;
+
+}
+.view_modul #view .profile .card table  td span{
+    color: darkblue;
+     margin:0 6px;
+}
+.view_modul #view .profile .card .img{
+    background: white;
+    width:80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+
+
+}
+.view_modul #view .profile .card .img img{
+    border-radius: 50%; 
+    width:80px;
+    height: 80px;
+  
+}
+
+#add_expane form .form-group 
+{
+    /* display: block; */
+    /* display: none; */
+    display: inline;
+}
+#add_expane form .form-group button{
+    height: 40px;
+}
+
+
+
+
+
+.view_modul .modal-header,.update_modul .modal-header,.add_modul .modal-header,.add_course .modal-header,.view_course .modal-header,.update_course .modal-header .modal-header,#view_teacher .modal-header,#update_teacher .modal-header,.update_course .modal-header,
+#add_expane .modal-header,#update_expane .modal-header,.view_expane .modal-header,#update_user .modal-header,#add_user .modal-header,#view_user .modal-header,#add_teacher .modal-header,#view_course_modul .modal-header,.view_modul .modal-header,#add_student .modal-header,#add_info .modal-header,.update_salary .modal-header
+{
+    background: darkblue;
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.view_modul .modal-header i,.update_modul .modal-header i,.add_modul .modal-header,.add_course .modal-header i,.view_course .modal-header i,
+.update_course .modal-header i,#update_teacher .modal-header i,
+#add_expane .modal-header i,#update_expane .modal-header i,.view_expane .modal-header i,#update_user .modal-header i,#add_user .modal-header i,
+#view_user .modal-header i,#add_teacher .modal-header i,#view_course_modul .modal-header i,.view_modul .modal-header i,#add_student .modal-header i,#add_info .modal-header i,.update_salary .modal-header i
+{
+   font-size: 20px;
+   font-weight: bold;
+   color: white; 
+    cursor: pointer;
+
+   
+}
+.view_modul .modal-body .img
+{
+    width: 100px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+  
+    border-radius: 50%;
+    margin: auto;
+}
+.view_modul .modal-body .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.view_modul .modal-body .form-group
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+#view_course_modul .table{
+    border:0;
+    box-shadow: 2px solid white;
+}
+#view_course_modul .card{
+    background:white;
+    /* padding: 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: darkblue;
+}
+#view_course_modul .card table  td span{
+    color: darkblue;
+     margin:0 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .student_enroll .form-group
+{
+    display: flex;
+    
+}
+.student_enroll .form-box{
+    margin: 8px;
+    width: 100%;
+}
+.student_enroll .last{
+    display: block;
+}
+.student_enroll form button
+{
+    float: right;
+} */
+
+.view_expane .card
+{
+    border: 0;
+}
+.view_expane .card p{
+    color: darkblue;
+
+}
+.view_expane .card span{
+    font-size: 13px;
+    margin:0 2px;
+    color: darkblue;
+    font-weight:bold;
+}
+.view_modul .modal-body .form-group span {
+    margin: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    /* color: var(--color); */
+    color: darkblue;
+}
+.update_modul .modal-body
+{
+   color: darkblue;
+   font-weight: bold;
+   text-transform: capitalize;
+
+
+}
+.update_modul .modal-body .form-group{
+     margin: auto;
+     width: 100%;
+}
+.update_modul .modal-body .form-group  button
+{
+   background: darkblue;
+   font-weight: bold;
+     box-shadow: none;
+     border: none;
+}
+/* syudent view_modul end */
+
+/* student enroll formdesign start */
+.student_enroll form ,.teacher_enroll form,#update_teacher form,#add_user form{
+    background: white;
+  
+  }
+  .student_enroll .form-header,.teacher_enroll .form-header{
+      background: darkblue;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 100%;
+  }
+  .student_enroll .form-group,.teacher_enroll .form-group{
+      background: white;
+      color: darkblue;
+      font-weight: bold;
+  }
+
+  .student_enroll .form-group input,.teacher_enroll .form-group input
+  ,#update_teacher .form-group input,.add_course .form-group input,.add_course .form-group textarea,
+  .update_course .form-group input,  .update_course .form-group textarea,.update_modul .modal-body .form-group input,#update_user .form-group input,#update_user .form-group textarea,#add_user .form-group input,#add_user .form-group  textarea,#add_expane .form-group input,#update_expane .form-group input,#update_expane .form-group textarea,#add_expane .form-group textarea,.update_modul .form-group textarea
+  {
+      box-shadow: none;
+      border-radius: 0;
+      border: 1px solid white;
+      background:rgb(243, 243, 243);
+  }
+  .update_modul .form-group textarea{
+    box-shadow: none;
+  }
+ #view_expan .table{
+    border:0;
+    box-shadow: 2px solid white;
+}
+#view_expan .card{
+    background:white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: darkblue;
+}
+
+#view_expan .card table  td span{
+    color: darkblue;
+     margin:0 6px;
+     font-size: 15px;
+}
+
+.student_enroll .form-group button ,.teacher_enroll  .form-group button,
+#update_teacher .form-group button,#add_user .form-group button,#add_expane .form-group button,
+#update_expane .form-group button
+{
+      background: darkblue;
+      border-radius: 0;
+      color: white;
+      box-shadow: none;
+     /* float: right; */
+     margin: 9px;
+     text-transform: capitalize;
+ 
+  }
+  .student_enroll .form-group button:hover,.teacher_enroll .form-group button:hover {
+    color: white;
+    background: darkblue;
+    /* text-transform: capitalize; */
+  }  
+  .student_enroll form p,.teacher_enroll form p,
+  #update_teacher form p,#update_user form p,
+  #add_user form p
+  {
+      font-weight: bold;
+      color: red;
+  }
+  .student_enroll .form-group,.teacher_enroll .form-group,#update_teacher .form-group,#update_user .form-group,#add_user .form-group
+{
+    display: flex;
+    
+}
+.student_enroll .form-box,.teacher_enroll .form-box,#update_teacher .form-box,#update_user .form-box,#add_user .form-box
+{
+    margin: 6px;
+    width: 100%;
+}
+.student_enroll .last, .teacher_enroll  .last,#update_teacher .last,#update_user .last,#add_user .last{
+    display: block;
+}
+
+/* student enroll form deisg end */
+/* view profile design start */
+.pro .card {
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pro .card .card-img{
+    height: 80px;
+    width: 80px;
+    background: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+    border-radius: 50%;
+   overflow: hidden;
+   background: white;
+
+}
+.pro .card .card-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: fill;
+    position: absolute;   
+}
+.pro .card .card-body span{
+    font-size: 14px;
+    /* margin:0 6px; */
+}
+.pro .card .deatil{
+    margin: 12px;
+}
+.all_header 
+{
+    text-transform: capitalize;
+    color: white;
+    background: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    box-shadow: none;
+}
+button:focus{
+    box-shadow: none;
+}
+ #pagnation
+{
+ 
+    text-align: center;
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+
+ #pagnation a{
+   
+        width: 30px;
+        height: 20px;
+       border: 1px solid darkblue;
+       text-decoration: none;
+       padding: 5px;
+       font-weight: bold;
+       color: darkblue;
+       background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin:6px;
+
+}
+
+ #pagnation .active{
+    background: darkblue;
+    color: white;
+    position: relative;
+    /* bottom:1px; */
+}
+
+/* view profile design end */
+/* add student and course strt */
+.add_student_course .form-group,.add_teacher_salary .form-group {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:white;
+    height: 45px;
+  
+    
+    
+}
+.add_student_course .form-group input,.add_teacher_salary .form-group input{
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+   height: 100%;
+   background:white;
+   position: relative;
+   
+}
+.add_student_course .form-group i,.add_teacher_salary .form-group i{
+    font-size: 20px;
+    /* background: darkblue; */
+    color: white;
+    padding: 12px;
+   
+
+    
+}
+.add_student_course .form-group .input-group-prepend,.add_teacher_salary .form-group .input-group-prepend
+{
+    background: darkblue;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.add_student_course .header,.add_teacher_salary  .header{
+    background:darkblue;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    /* margin: 12px; */
+}
+.table_of_student table thead,.table_of_teacher table thead
+{
+    background:darkblue;
+    color: white;
+}
+/* .table_of_student table tbody tr td,.table_of_teacher table tbody tr td{
+    border: 0;
+} */
+.table_of_student table tbody tr td,.table_of_teacher table tbody tr td,
+.teacher_info_table  table tbody tr td,#show table tbody tr td,
+.user_table_show table tbody tr td,#expan_table table tbody tr td
+{
+    border: 0;
+    color: darkblue;
+    font-weight: bold;
+    /* font-size: 19px; */
+}
+/* .student_table #show table tbody tr td:nth-child(odd)
+{
+    background: #000;
+} */
+.table_of_student table tbody tr:nth-child(odd),
+.table_of_teacher table tbody tr:nth-child(odd),
+.student_table #show table tbody tr:nth-child(odd),
+.teacher_info_table  table tbody tr:nth-child(odd),
+#show table tbody tr:nth-child(odd),
+.user_table_show table tbody tr:nth-child(odd),
+#expan_table table tbody tr:nth-child(odd)
+{
+   border: 0;
+   background: rgb(235, 234, 240);
+   color: darkblue;
+   font-weight: bold;
+}
+.table_of_student table tbody i,.table_of_teacher table tbody i{
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.table_of_student table tbody .fa-eye,
+.table_of_teacher table tbody .fa-eye
+{ 
+    color: green; 
+}
+.view_student_info .img,.view_teacher_info .img {
+    background: #000;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view_student_info .img img,.view_teacher_info .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.view_student_info .form-group,.view_teacher_info .form-group,#update_salary .form-group{
+    text-transform: capitalize;
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin:0 12px; */
+    display: flex;
+}
+.view_student_info .form-group .form-box,.view_teacher_info .form-group .form-box,#update_salary .form-group .form-box{
+    margin: 6px;
+    width: 100%;
+}
+.view_student_info .form-group input,.view_teacher_info .form-group input,#update_salary .form-group input{
+    box-shadow: none;
+    border: 0;
+    background:rgb(236, 234, 234);
+ 
+}
+.view_student_info .form-group select{
+    background:rgb(236, 234, 234);
+    box-shadow: none;
+    border: 0;
+}
+.view_student_info .form-group select option
+{
+   /* background: white; */
+   color: darkblue;
+   font-weight: bold;
+}
+.view_student_info .form-group select option{
+    background: white;
+}
+.view_student_info .form-group button,.view_teacher_info .form-group button,#update_salary .form-group button{
+    text-transform: capitalize;
+    box-shadow: none;
+    border: 0;
+    background: darkblue;
+    color: white;
+}
+.view_student_info .form-group button:focus,.view_teacher_info .form-group button:focus,#update_salary .form-group button:focus{
+    box-shadow: none;
+}
+
+/* add course and course end */
+
+
+.student_detail  table th{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* text-align: center; */
+
+
+}
+.student_detail  table td{
+    color: darkblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* border: 0; */
+}
+.student_detail  table td:nth-child(1){
+    background: rgb(186, 176, 233);
+
+}
+.student_detail  table td:nth-child(2){
+   background: white;
+}
+
+.student_all_info .allheader{
+    background: darkblue;
+    color: white;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+
+}
+.student_all_info .card{
+    border: 0;
+}
+.student_all_info .card .img
+{
+    width: 75px;
+    height: 70px;
+    background: white;
+    margin: auto;
+    border-radius: 50%;
+
+}
+.student_all_info .card .img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.student_all_info .card #header{
+     color: darkblue;
+     font-size: 18px;
+   
+}
+.student_all_info .info{
+   color: darkblue;
+   font-weight: bold;
+
+}
+
+
+.student_all_info .info tr td{
+    padding:2px 12px;
+}
+.course_info .header{
+    color: rgb(179, 57, 77);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.student_all_info table{
+    color: darkblue;
+
+}
+.course_info table thead{
+    background: darkblue;
+    color: white;
+}
+.course_info table i{
+    cursor: pointer;
+}
+.course_info table .fa-trash{
+    color: red;
+}
+.course_info table .fa-pen-to-square{
+    color: darkblue;
+}
+.course_info table .fa-pen{
+    text-decoration: none;
+    color: darkblue;
+
+}
+.course_info table .footer
+{
+   color: darkblue;
+   font-weight: bold;
+
+}
+
+.card{
+    background: #000;
+   border: 0;
+   border-radius: 0;
+  }
+  #salary_info,#personal_info{
+      border: 0;
+  }
+  .card .card-img{
+       width: 70px;
+       height: 70px;
+       background:white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+  
+  }
+.container-fluid .header1 h4{
+    color: darkblue;
+    text-transform: capitalize;
+    margin-top: 20px;
+ } 
+  .card .card-img img{
+      width: 100%;
+      height: 100%;
+  }
+  .card .card-body{
+      /* border: 0; */
+  }
+  .card .card-body .text{
+      margin:3px 12px;
+      color: darkblue;
+      font-weight: bold;
+  }
+  .card .card-body table ,#salary_info table{
+      color: darkblue;
+      font-weight:500;
+      text-transform: capitalize;
+      /* margin: 10px; */
+  }
+  #salary_info table th{
+      background: darkblue;
+      color: white;
+      /* height: 40px; */
+     
+  
+  }
+  #salary_info table th tr td{
+   
+  }
+  #salary_info table #footer{
+      font-weight: bold;
+  }
+.teacher_profile .head{
+    height: 50px;
+    background: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.report .head{
+    background: darkblue;
+    height: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.adim-form .card{
+    border: 0;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+   
+
+}
+.adim-form .login
+{
+    position: relative;
+    /* height: 450px; */
+  
+ 
+}
+.adim-form .login .err{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+.adim-form .card span{
+    z-index: 1;
+    color: white;
+    text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.adim-form form{
+    position: relative;
+    width: 100%;
+    /* height: 400px; */
+}
+.adim-form .login::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 27%;
+    background: darkblue;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.adim-form  .card .form-group{
+    position: relative;
+         
+}
+.adim-form  .card .form-group label{
+    color: darkblue;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.adim-form  .card .form-group input{
+    box-shadow: none;
+    background: rgb(247, 244, 244);
+    border: 0;
+    border-radius: 0;
+    /* font-size: 19px; */
+}
+.adim-form  .card .form-group button{
+    background: darkblue;
+    color: white;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.adim-form  .card .form-group button:focus{
+    box-shadow: none;
+}
+.adim-form  .card .form-group i{
+    color: darkblue;
+    position: absolute;
+    top: 50px;
+    right: 12px;
+    cursor: pointer;
+
+}
+
+.slip .card{
+    border: 0;
+    
+}
+.slip .card .card-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+
+    color: darkblue;
+}
+.slip .card .card-title h2{
+    color: darkblue;
+}
+.slip .card .info{
+    font-weight: bold;
+     margin:2px 12px;
+}
+.slip .card button{
+    background: darkblue;
+    color: white;
+    border: 0;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.slip .card button:focus{
+    box-shadow: none;
+}
+.slip table{
+    color: darkblue;
+}
+.slip  .recipt
+{
+    display: flex;
+ 
+    
+}
+.slip  .recipt .name:nth-child(2){
+    margin:0 200px;
+}
+#print_btn,#other{
+    background: darkblue;
+    border: 0;
+     color: white;
+     text-transform: capitalize;
+}
+#print_btn:focus,#other:focus{
+    box-shadow: none;
+}
+
+.student_profile{
+    position: relative;
+    color: darkblue;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.student_profile::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: darkblue;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.student_profile .card .card-img{
+    width: 80px;
+    height: 70px;
+    background: white;
+    margin: auto;
+    border-radius: 0;
+    margin-top: 12px;
+    z-index: 1;
+}
+.student_profile .card{
+    border: 0;
+
+}
+.student_profile .card .card-body .info{
+    margin: 6px;
+
+}
+
+
+.course_report .head{
+    border: 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(91, 41, 226);
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+/* background: rgb(235, 234, 240); */
+.course_report table tr th{
+    border: 0;
+    background: rgb(91, 41, 226);
+    color: white;
+}
+.course_report table tr td{
+    border: 0;
+}
+.course_report table  tbody tr:nth-child(odd)
+{
+    background: rgb(235, 234, 240);
+}
+
+.expen_reocrd .head{
+    border: 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(91, 41, 226);
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-transform: capitalize;
+
+}
+.expen_reocrd table tr th{
+    color: darkblue;
+    border: 0;
+}
+.expen_reocrd table tr th:nth-child(1)
+{
+    background: rgb(235, 234, 240);
+}
+.expen_reocrd table  #fin{
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
